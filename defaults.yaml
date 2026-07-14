@@ -1,0 +1,18 @@
+pdf-engine: xelatex
+
+variables:
+  mainfont: Lato
+  fontsize: 11pt
+  geometry: margin=2.5cm
+
+metadata:
+  colorlinks: true
+  linkcolor: blue
+  urlcolor: blue
+
+include-in-header:
+  - header.tex
+
+toc: true
+number-sections: true
+

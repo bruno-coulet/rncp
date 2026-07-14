@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Force TOUTES les images à s'adapter à la largeur de la page au maximum, et les centre */
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
