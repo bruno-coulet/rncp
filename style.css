@@ -16,3 +16,35 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+/* Style spécifique pour les blocs de code Markdown */
+pre {
+    white-space: pre; /* Interdit strictement le retour à la ligne */
+    font-size: 0.75em; /* Réduit la taille de la police pour gagner de la place */
+    background-color: #f8f9fa; /* Ajoute un fond gris clair pour la lisibilité */
+    padding: 12px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style pour les bordures de tableaux */
+table {
+    border-collapse: collapse; /* Fusionne les doubles bordures */
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #bdc3c7; /* Couleur des traits de séparation (gris) */
+    padding: 10px; /* Espace le texte des bordures */
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa; /* Fond légèrement grisé pour l'en-tête */
+    font-weight: bold;
+}
