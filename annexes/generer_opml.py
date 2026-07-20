@@ -1,3 +1,20 @@
+"""
+===============================================================================
+Bloc         : E2 - Intégrer des modèles et services d'IA
+Compétence   : C6 - Organiser et réaliser une veille technique et réglementaire
+
+Description  :
+Ce script automatise la génération d'un fichier d'export de flux RSS au format
+standard OPML 2.0 à partir d'un dictionnaire Python. Il démontre la capacité à 
+déployer et configurer des outils de veille de manière programmatique (DevOps).
+
+Particularité technique :
+Le dictionnaire de données intègre des URL pré-filtrées (via siftrss.com) 
+permettant d'isoler le signal du bruit (ex: ciblage exclusif des alertes "CVE" 
+sur GitHub ou des "Post-mortems" techniques sur Hacker News).
+===============================================================================
+"""
+
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
@@ -11,7 +28,7 @@ veille_data = {
         {"title": "OWASP", "xmlUrl": "https://owasp.org/feed.xml"}
     ],
     "Technologique IA & Data": [
-        {"title": "Hacker News", "xmlUrl": "https://news.ycombinator.com/rss"},
+        {"title": "Hacker News", "xmlUrl": "https://siftrss.com/f/QVvj31xDbn"},
         {"title": "Towards Data Science", "xmlUrl": "https://medium.com/feed/towards-data-science"},
         {"title": "FastAPI (Releases)", "xmlUrl": "https://github.com/fastapi/fastapi/releases.atom"},
         {"title": "Scikit-Learn (Releases)", "xmlUrl": "https://github.com/scikit-learn/scikit-learn/releases.atom"}

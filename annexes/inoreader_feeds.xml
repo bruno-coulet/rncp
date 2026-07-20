@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Feeds of Bruno Coulet from Inoreader [https://www.inoreader.com]</title>
+  </head>
+  <body>
+    <outline text="Réglementaire" title="Réglementaire">
+      <outline text="CNIL" title="CNIL" type="rss" xmlUrl="https://www.cnil.fr/fr/rss.xml" htmlUrl="https://www.cnil.fr/fr/rss.xml"/>
+    </outline>
+    <outline text="Sécurité" title="Sécurité">
+      <outline text="CERT-FR (ANSSI)" title="CERT-FR (ANSSI)" type="rss" xmlUrl="https://www.cert.ssi.gouv.fr/feed/" htmlUrl="https://www.cert.ssi.gouv.fr/"/>
+      <outline text="OWASP" title="OWASP" type="rss" xmlUrl="https://owasp.org/feed.xml" htmlUrl="http://owasp.org/"/>
+      <outline text="FastAPI (Releases)" title="FastAPI (Releases)" type="rss" xmlUrl="https://github.com/fastapi/fastapi/releases.atom" htmlUrl="https://github.com/fastapi/fastapi/releases"/>
+    </outline>
+    <outline text="Technologique IA &amp; Data" title="Technologique IA &amp; Data">
+      <outline text="Hacker News" title="Hacker News" type="rss" xmlUrl="https://siftrss.com/f/QVvj31xDbn" htmlUrl="https://siftrss.com/f/QVvj31xDbn"/>
+      <outline text="Towards Data Science" title="Towards Data Science" type="rss" xmlUrl="https://medium.com/feed/towards-data-science" htmlUrl="https://medium.com/towards-data-science?source=rss----7f60cf5620c9---4"/>
+      <outline text="Scikit-Learn (Releases)" title="Scikit-Learn (Releases)" type="rss" xmlUrl="https://github.com/scikit-learn/scikit-learn/releases.atom" htmlUrl="https://github.com/scikit-learn/scikit-learn/releases"/>
+    </outline>
+    <outline text="Accessibilité" title="Accessibilité">
+      <outline text="Association Valentin Haüy" title="Association Valentin Haüy" type="rss" xmlUrl="https://www.avh.asso.fr/rss" htmlUrl="https://www.avh.asso.fr/rss"/>
+    </outline>
+  </body>
+</opml>
